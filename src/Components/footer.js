@@ -1,5 +1,6 @@
 import React from "react"
 import Logo  from '../img/logo-yire.png';
+import Iframe from "react-iframe";
 const Footer = () => {
     return(
         <div class="mt-5 pt-5 pb-5 footer">
@@ -9,17 +10,17 @@ const Footer = () => {
                     <img
                     alt=""
                     src={Logo}
-                    width="160px"
-                    height="160px" />
+                    width="200px"
+                    height="200px" />
                 </div>
                 <div class="col-lg-4 col-xs-12 links logo" >
                 <h4 class="mt-lg-0 mt-sm-3">Correos</h4>
                     <ul class="m-0 p-0">
-                    <li> <a href="mailto:">Directora</a></li>
-                    <li> <a href="mailto:">PME</a></li>
-                    <li> <a href="mailto:">Inspectora General</a></li>
-                    <li> <a href="mailto:">Convivencia Escolar</a></li>
-                    <li> <a href="mailto:">Claves Alumnos</a></li>
+                    <li> <a href="mailto:jeannettearancibia@yireliceo.com">Directora</a></li>
+                    <li> <a href="mailto:inesmunoz@yireliceo.com">PME</a></li>
+                    <li> <a href="mailto:nataliabarriga@yireliceo.com">Inspectora General</a></li>
+                    <li> <a href="mailto:danielvera@yireliceo.com">Convivencia Escolar</a></li>
+                    <li> <a href="mailto:Informatica@yireliceo.com">Claves Alumnos</a></li>
                     </ul>
                 </div>
                 <div class="col-lg-5 col-xs-12 location logo">

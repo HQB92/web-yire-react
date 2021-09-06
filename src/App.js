@@ -5,23 +5,29 @@ import Carrusel from './Components/carrusel';
 import Footer from './Components/footer';
 import Noticias from './Components/noticias';
 import Classroom from './Components/classroom';
+import PreHeader from './Components/pre-header';
+import EnContruccion from './Components/encontruccion';
+import { Container } from 'react-bootstrap';
+
 
 function App() {
   return (
+    <Container fluid className="body-panddin">
       <Router>
+        <PreHeader></PreHeader>
         <Header></Header>
         <Switch>
           <Route exact path='/'>
             <Carrusel></Carrusel>
             <Noticias></Noticias>
           </Route>
-          <Route exact path='/classroom'>
-            <Classroom></Classroom>
-
+          <Route path='.*'>
+            <EnContruccion></EnContruccion>
           </Route>
         </Switch>
         <Footer></Footer>
       </Router>
+    </Container>
   );
 }
 
