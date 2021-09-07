@@ -1,8 +1,8 @@
 import React from 'react';
 import { Container, CardGroup, Card, Button, Col, Row } from 'react-bootstrap';
-import imagen1 from "../img/18sep.png"
-import imagen2 from "../img/classroom.png"
-import imagen3 from "../img/admin.png"
+import imagen1 from "../img/noticias/18sep.png"
+import imagen2 from "../img/noticias/classroom.png"
+import imagen3 from "../img/noticias/admin.png"
 const Noticias = () => {
     
     return(

@@ -8,6 +8,8 @@ import Classroom from './Components/classroom';
 import PreHeader from './Components/pre-header';
 import EnContruccion from './Components/encontruccion';
 import { Container } from 'react-bootstrap';
+import Historia from './Components/historia';
+import MisionVision from './Components/mision-vision';
 
 
 function App() {
@@ -21,7 +23,13 @@ function App() {
             <Carrusel></Carrusel>
             <Noticias></Noticias>
           </Route>
-          <Route path='.*'>
+          <Route path='/historia'>
+            <Historia></Historia>
+          </Route>
+          <Route path='/misio-y-vision'>
+            <MisionVision></MisionVision>
+          </Route>
+          <Route path='*'>
             <EnContruccion></EnContruccion>
           </Route>
         </Switch>

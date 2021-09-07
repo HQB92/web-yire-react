@@ -1,7 +1,5 @@
 import React from 'react';
-import Logo  from '../img/logo-yire.png';
-import Instagram from '../img/instagram.png';
-import Facebook from '../img/facebook.png';
+import Logo  from '../img/header-footer/logo-yire.png';
 import { Navbar, Container, Nav, NavDropdown } from 'react-bootstrap';
 
 const Header= () =>{
@@ -22,25 +20,25 @@ const Header= () =>{
                 </Nav>
                 <Nav className="navbar-right">
                     <NavDropdown className="down" title="NUESTRO COLEGIO" id="navbarScrollingDropdown">
-                        <NavDropdown.Item className="down" href="#action3">Saludo Directora</NavDropdown.Item>
-                        <NavDropdown.Item className="down" href="#action4">Historia</NavDropdown.Item>
-                        <NavDropdown.Item className="down" href="#action5">Misión y Visión</NavDropdown.Item>
-                        <NavDropdown.Item className="down" href="#action3">Perfil del Estudiante</NavDropdown.Item>
-                        <NavDropdown.Item className="down" href="#action4">Equipo Directivo</NavDropdown.Item>
-                        <NavDropdown.Item className="down" href="#action5">Documentos Institucionales</NavDropdown.Item>
-                        <NavDropdown.Item className="down" href="#action3">Plan de Mejoramiento</NavDropdown.Item>
-                        <NavDropdown.Item className="down" href="#action4">PISE</NavDropdown.Item>
-                        <NavDropdown.Item className="down" href="#action5">Infraestructura</NavDropdown.Item>
+                        <NavDropdown.Item className="down" href="/saludo-directora">Saludo Directora</NavDropdown.Item>
+                        <NavDropdown.Item className="down" href="/historia">Historia</NavDropdown.Item>
+                        <NavDropdown.Item className="down" href="/misio-y-vision">Misión y Visión</NavDropdown.Item>
+                        <NavDropdown.Item className="down" href="/perfil">Perfil del Estudiante</NavDropdown.Item>
+                        <NavDropdown.Item className="down" href="/equipo-directivo">Equipo Directivo</NavDropdown.Item>
+                        <NavDropdown.Item className="down" href="/doc-intitucionales">Documentos Institucionales</NavDropdown.Item>
+                        <NavDropdown.Item className="down" href="/plan-mejoramiento">Plan de Mejoramiento</NavDropdown.Item>
+                        <NavDropdown.Item className="down" href="/pise">PISE</NavDropdown.Item>
+                        <NavDropdown.Item className="down" href="/infractructura">Infraestructura</NavDropdown.Item>
                     </NavDropdown>
                     <NavDropdown className="down" title="AREA ACADEMICA" id="navbarScrollingDropdown">
-                        <NavDropdown.Item className="down" href="#action3">Coordinación Académica</NavDropdown.Item>
-                        <NavDropdown.Item className="down" href="#action4">Equipo Academico</NavDropdown.Item>
-                        <NavDropdown.Item className="down" href="#action5">Equipo Docentes</NavDropdown.Item>
-                        <NavDropdown.Item className="down" href="#action3">Equipo PIE</NavDropdown.Item>
-                        <NavDropdown.Item className="down" href="#action4">Planes de Estudio</NavDropdown.Item>
-                        <NavDropdown.Item className="down" href="#action5">Actividades Complementarias</NavDropdown.Item>
-                        <NavDropdown.Item className="down" href="#action3">Mediciones Externas</NavDropdown.Item>
-                        <NavDropdown.Item className="down" href="#action4">Recursos para el Aprendizaje</NavDropdown.Item>
+                        <NavDropdown.Item className="down" href="/coordinacion-academica">Coordinación Académica</NavDropdown.Item>
+                        <NavDropdown.Item className="down" href="/equipo-academico">Equipo Academico</NavDropdown.Item>
+                        <NavDropdown.Item className="down" href="/equipo-docente">Equipo Docentes</NavDropdown.Item>
+                        <NavDropdown.Item className="down" href="/equipo-pie">Equipo PIE</NavDropdown.Item>
+                        <NavDropdown.Item className="down" href="plan-estudio">Planes de Estudio</NavDropdown.Item>
+                        <NavDropdown.Item className="down" href="/actividades-complementarias">Actividades Complementarias</NavDropdown.Item>
+                        <NavDropdown.Item className="down" href="/mediciones-externas">Mediciones Externas</NavDropdown.Item>
+                        <NavDropdown.Item className="down" href="/recurso-aprendizaje">Recursos para el Aprendizaje</NavDropdown.Item>
                     </NavDropdown>
                     <NavDropdown className="down" title="CAPELLANIA Y FORMACION" id="navbarScrollingDropdown">
                         <NavDropdown.Item className="down" href="#action3">Psico-orientación</NavDropdown.Item>
@@ -51,9 +49,9 @@ const Header= () =>{
                     </NavDropdown>
                     <NavDropdown className="down" title="CICLOS" id="navbarScrollingDropdown">
                         <NavDropdown.Item className="down" href="#action3">Inicial</NavDropdown.Item>
-                        <NavDropdown.Item className="down" href="#action4">Básico</NavDropdown.Item>
-                        <NavDropdown.Item className="down" href="#action5">Intermedio</NavDropdown.Item>
-                        <NavDropdown.Item className="down" href="#action5">Superior</NavDropdown.Item>
+                        <NavDropdown.Item className="down" href="#action4">Primer Ciclo Básico</NavDropdown.Item>
+                        <NavDropdown.Item className="down" href="#action5">Segundo Ciclo Básico</NavDropdown.Item>
+                        <NavDropdown.Item className="down" href="#action5">Enseñanza Media</NavDropdown.Item>
                     </NavDropdown>
                     <NavDropdown className="down" title="COMUNIDAD" id="navbarScrollingDropdown">
                         <NavDropdown.Item className="down" href="#action3">Centros</NavDropdown.Item>

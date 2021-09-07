@@ -1,5 +1,5 @@
 import React from "react"
-import Logo  from '../img/logo-yire.png';
+import Logo  from '../img/header-footer/logo-yire.png';
 import Iframe from "react-iframe";
 const Footer = () => {
     return(

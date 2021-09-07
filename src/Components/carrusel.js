@@ -2,9 +2,9 @@ import React from "react";
 import LazyLoad from 'react-lazyload';
 import { Carousel } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import foto1 from "../img/1.png"
-import foto2 from "../img/2.png"
-import foto3 from "../img/3.png"
+import foto1 from "../img/carrusel/1.png"
+import foto2 from "../img/carrusel/2.png"
+import foto3 from "../img/carrusel/3.png"
 
 class Carrusel extends React.Component {
 
