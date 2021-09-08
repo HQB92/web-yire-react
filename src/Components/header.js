@@ -1,7 +1,7 @@
 import React from 'react';
 import Logo  from '../img/header-footer/logo-yire.png';
 import { Navbar, Container, Nav, NavDropdown } from 'react-bootstrap';
-
+import MenuIcon from '@material-ui/icons/Menu';
 const Header= () =>{
     return(
         <div>
@@ -13,8 +13,10 @@ const Header= () =>{
                 src={Logo}
                 width="130px"
                 height="130px" />
-          </Navbar.Brand>
-            <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+            </Navbar.Brand>
+                <Navbar.Toggle aria-controls="responsive-navbar-nav ">
+                    <span><MenuIcon className="menu2" style={{ fontSize: 40 } }></MenuIcon></span>
+                </Navbar.Toggle>
             <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="me-auto">
                 </Nav>

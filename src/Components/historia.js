@@ -1,6 +1,6 @@
 
 import React from 'react';
-import {Container, Card, CardColumns} from  'react-bootstrap'
+import {Container, Card} from  'react-bootstrap'
 import Entrada from "../img/colegio/entrada.png"
 import Basica from "../img/colegio/basica.png"
 const Historia = () => {
@@ -35,7 +35,6 @@ const Historia = () => {
             </p>
             <Card className=" text-white">
                 <Card.Img src={Basica} alt="Card image" />
-                
             </Card>
             <p>
                 Su enseñanza está basada en sólidos principios cristianos y una formación

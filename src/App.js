@@ -4,13 +4,12 @@ import Header from './Components/header';
 import Carrusel from './Components/carrusel';
 import Footer from './Components/footer';
 import Noticias from './Components/noticias';
-import Classroom from './Components/classroom';
+//import Classroom from './Components/classroom';
 import PreHeader from './Components/pre-header';
 import EnContruccion from './Components/encontruccion';
 import { Container } from 'react-bootstrap';
 import Historia from './Components/historia';
 import MisionVision from './Components/mision-vision';
-
 
 function App() {
   return (

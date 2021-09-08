@@ -4,13 +4,12 @@ import imagen1 from "../img/noticias/18sep.png"
 import imagen2 from "../img/noticias/classroom.png"
 import imagen3 from "../img/noticias/admin.png"
 const Noticias = () => {
-    
     return(
         <Container >
             <CardGroup  >
                 <Row xs={1} md={3} className="g-4">
-                    <Col className="fluid-paddin" >
-                        <Card>
+                    <Col className="fluid-paddin col-especial" >
+                        <Card className="h-100">
                             <Card.Img variant="top" src={imagen1} />
                             <Card.Body>
                             <Card.Title>18 de septiembre</Card.Title>
@@ -28,8 +27,8 @@ const Noticias = () => {
                             </Card.Footer>
                         </Card>
                     </Col>
-                    <Col className="fluid-paddin" >
-                        <Card>
+                    <Col className="fluid-paddin col-especial" >
+                        <Card className="h-100">
                             <Card.Img variant="top" src={imagen2} />
                             <Card.Body>
                             <Card.Title>Google Classroom </Card.Title>
@@ -46,8 +45,8 @@ const Noticias = () => {
                             </Card.Footer>
                         </Card>
                     </Col>
-                    <Col className="fluid-paddin" >
-                        <Card>
+                    <Col className="fluid-paddin col-especial " >
+                        <Card className="h-100">
                         <Card.Img variant="top" src={imagen3} />
                             <Card.Body>
                             <Card.Title>Sistema de Admisión Escolar</Card.Title>
