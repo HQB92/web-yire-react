@@ -34,6 +34,7 @@ body {
 .dropdown-item{
   text-transform: uppercase;
 }
+
 .dropdown-item:hover{
   color:  #e4b021  !important;
 }
@@ -71,6 +72,7 @@ a:hover{
 .dropdown-menu {
   border: none;
   font-size: 14;
+  padding: 0  !important;
 }
 button{
   border: 0 !important;

@@ -1,10 +1,17 @@
 import React from 'react';
+import {Col, Container} from 'react-bootstrap'
 
 const Classroom = () => {
     return(
-        <div>
-            holas
-        </div>
+        <Container>
+            <Col>
+                    hola
+            </Col>
+            <Col>
+                hola
+            </Col>
+            
+        </Container>
     )
 }
 export default Classroom;

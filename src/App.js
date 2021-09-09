@@ -4,7 +4,7 @@ import Header from './Components/header';
 import Carrusel from './Components/carrusel';
 import Footer from './Components/footer';
 import Noticias from './Components/noticias';
-//import Classroom from './Components/classroom';
+import Classroom from './Components/classroom';
 import PreHeader from './Components/pre-header';
 import EnContruccion from './Components/encontruccion';
 import { Container } from 'react-bootstrap';
@@ -27,6 +27,9 @@ function App() {
           </Route>
           <Route path='/misio-y-vision'>
             <MisionVision></MisionVision>
+          </Route>
+          <Route path='/classroom'>
+            <Classroom></Classroom>
           </Route>
           <Route path='*'>
             <EnContruccion></EnContruccion>
