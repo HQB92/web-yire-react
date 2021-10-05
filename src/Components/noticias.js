@@ -3,11 +3,27 @@ import { Container, CardGroup, Card, Button, Col, Row } from 'react-bootstrap';
 import imagen1 from "../img/noticias/18sep.png"
 import imagen2 from "../img/noticias/classroom.png"
 import imagen3 from "../img/noticias/admin.png"
+import imagen4 from "../img/noticias/explora.jpg"
 const Noticias = () => {
     return(
         <Container >
             <CardGroup  >
                 <Row xs={1} md={3} className="g-4">
+                    <Col className="fluid-paddin col-especial " >
+                        <Card className="h-100">
+                        <Card.Img variant="top" src={imagen4} />
+                            <Card.Body>
+                            <Card.Title>TODO CHILE CELEBRA LA XX SEMANA NACIONAL DE LA CIENCIA Y LA TECNOLOGÍA</Card.Title>
+                            <Card.Text>
+                                <p>La Semana Nacional de la Ciencia y la Tecnología se realiza cada año en todo el país, impulsada por la Comisión Nacional de Investigación Científica y Tecnológica, CONICYT, a través de su Programa EXPLORA y diversas instituciones colaboradoras. Su objetivo es generar espacios de participación para la comunidad y el desarrollo de actividades que releven la presencia de la ciencia y la tecnología en el mundo actual.</p>
+                            </Card.Text>
+                            <Button href="https://www.conicyt.cl/explora/todo-chile-celebra-la-xx-semana-nacional-de-la-ciencia-y-la-tecnologia/"  target="_blank" variant="primary">Información</Button>{' '}
+                            </Card.Body>
+                            <Card.Footer>
+                                <small className="text-muted">Publicado el 05-10</small>
+                            </Card.Footer>
+                        </Card>
+                    </Col>
                     <Col className="fluid-paddin col-especial" >
                         <Card className="h-100">
                             <Card.Img variant="top" src={imagen1} />
@@ -54,7 +70,7 @@ const Noticias = () => {
                                 <p>Plataforma del Gobierno de Chile para postular a nuestro colegio y encontrar información necesaria para el proceso de admisión.
                                 desde el 12 de agosto hasta el 8 de septiembre.</p>
                             </Card.Text>
-                            <Button href="https://www.sistemadeadmisionescolar.cl/"  target="_blank" variant="primary">Postular</Button>{' '}
+                            <Button href="https://www.sistemadeadmisionescolar.cl/"  disabled  variant="primary">Postular</Button>{' '}
                             </Card.Body>
                             <Card.Footer>
                                 <small className="text-muted">Publicado el 06-09</small>
