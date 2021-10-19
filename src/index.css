@@ -17,6 +17,14 @@ body {
   height: 11.3rem;
   background-color: whitesmoke;
 }
+.btn-primary{
+  background-color: #e47f21 !important;
+  border-color: #e47f21 !important;
+}
+.btn-primary:hover{
+  background-color: #e4b021!important;
+  border-color: #e4b021;
+}
 .div {
   display: flex;
   text-align: right;
