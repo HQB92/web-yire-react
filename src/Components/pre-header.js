@@ -24,7 +24,7 @@ const PreHeader = () =>{
                     <Nav className="navbar-right div navbar-borde ">
                         <Nav.Link className="navbar-right div navbar-borde" href="/classroom">ClassRoom</Nav.Link>
                         <Nav.Link className="navbar-right div" href="/comunicados">Comunicados</Nav.Link>
-                        <Nav.Link className="navbar-right div" href="/protocolos-y-reglamentos">Protocolos y reglamentos</Nav.Link>
+                        <Nav.Link className="navbar-right div" href="https://drive.google.com/file/d/1hU9pvdRTMRNoyxSlgzSwe4ee1Edf6XNk/view?usp=sharing">Reglamento</Nav.Link>
                         <Nav.Link className="navbar-right div" href="https://app.colegiointeractivo.cl/sae3.0/index3_new.html"  target="_blank">Notas</Nav.Link>
                         <Nav.Link className="navbar-right div" href="/pise">Pise</Nav.Link>
                         <Nav.Link className="navbar-right div" href="/contacto">Contacto</Nav.Link>
